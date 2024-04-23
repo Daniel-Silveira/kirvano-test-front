@@ -15,7 +15,6 @@ interface DatepickerStore {
   toggleVisibilityDatepicker: () => void;
   changePeriod: (period: Period) => void;
   changeDayHover: (day: string | null) => void;
-  changeInputText: (text: string) => void;
   updateFirstDate: (date: dayjs.Dayjs) => void;
   changeDatepickerValue: (
     value: DateValueType,
@@ -34,7 +33,6 @@ const DatepickerContext = createContext<DatepickerStore>({
   changePeriod: (period) => {},
   toggleVisibilityDatepicker: () => {},
   changeDayHover: (day: string | null) => {},
-  changeInputText: (text) => {},
   updateFirstDate: (date) => {},
   changeDatepickerValue: (
     value: DateValueType,
