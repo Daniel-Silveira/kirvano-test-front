@@ -1,4 +1,4 @@
-import Calendar from "../Calendar";
+import Calendar from "../Calendar/CalendarView";
 import Footer from "./components/Footer";
 import Shortcuts from "./components/Shortcuts";
 import DatepickerContext from "../../contexts/DatepickerContext";
