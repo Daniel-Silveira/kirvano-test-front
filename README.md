@@ -1,30 +1,29 @@
-# React + TypeScript + Vite
+<h1>Teste Técnico Kirvano - Frontend</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="./public/datepicker.png" alt="Imagem">
 
-Currently, two official plugins are available:
+<p>Este projeto foi criado com React, Typescript, Tailwind, Storybook e Jest.</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h2>Instalação</h2>
 
-## Expanding the ESLint configuration
+<p>Para instalar as dependências, utilize o seguinte comando:</p>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<pre><code>npm install
+</code></pre>
 
-- Configure the top-level `parserOptions` property like this:
+<h2>Execução</h2>
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+<p>Para iniciar o servidor em modo de desenvolvimento, utilize o comando:</p>
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<pre><code>npm run dev
+</code></pre>
+
+<p>Para executar os testes, utilize o seguinte comando:</p>
+
+<pre><code>npm run test
+</code></pre>
+
+<p>Para abrir o Storybook, utilize o comando:</p>
+
+<pre><code>npm run storybook
+</code></pre>
