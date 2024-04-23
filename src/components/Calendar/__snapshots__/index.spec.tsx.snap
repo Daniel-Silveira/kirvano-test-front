@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Calendar] components Months component should render buttons for all months 1`] = `
+<div>
+  <div
+    class="w-full grid grid-cols-2 gap-2 mt-2"
+  >
+    <button
+      class="w-full tracking-wide dark:text-white/70 dark:hover:bg-white/10 dark:focus:bg-white/10 font-semibold bg-gray-50 dark:bg-white/5 transition-all duration-300 px-3 py-3 uppercase hover:bg-gray-100 rounded-md focus:ring-1 "
+      type="button"
+    >
+      Jan
+    </button>
+    <button
+      class="w-full tracking-wide dark:text-white/70 dark:hover:bg-white/10 dark:focus:bg-white/10  transition-all duration-300 px-3 py-3 uppercase hover:bg-gray-100 rounded-md focus:ring-1 "
+      type="button"
+    >
+      Feb
+    </button>
+    <button
+      class="w-full tracking-wide dark:text-white/70 dark:hover:bg-white/10 dark:focus:bg-white/10  transition-all duration-300 px-3 py-3 uppercase hover:bg-gray-100 rounded-md focus:ring-1 "
+      type="button"
+    >
+      Mar
+    </button>
+    <button
+      class="w-full tracking-wide dark:text-white/70 dark:hover:bg-white/10 dark:focus:bg-white/10  transition-all duration-300 px-3 py-3 uppercase hover:bg-gray-100 rounded-md focus:ring-1 "
+      type="button"
+    >
+      Apr
+    </button>
+    <button
+      class="w-full tracking-wide dark:text-white/70 dark:hover:bg-white/10 dark:focus:bg-white/10  transition-all duration-300 px-3 py-3 uppercase hover:bg-gray-100 rounded-md focus:ring-1 "
+      type="button"
+    >
+      May
+    </button>
+    <button
+      class="w-full tracking-wide dark:text-white/70 dark:hover:bg-white/10 dark:focus:bg-white/10  transition-all duration-300 px-3 py-3 uppercase hover:bg-gray-100 rounded-md focus:ring-1 "
+      type="button"
+    >
+      Jun
+    </button>
+    <button
+      class="w-full tracking-wide dark:text-white/70 dark:hover:bg-white/10 dark:focus:bg-white/10  transition-all duration-300 px-3 py-3 uppercase hover:bg-gray-100 rounded-md focus:ring-1 "
+      type="button"
+    >
+      Jul
+    </button>
+    <button
+      class="w-full tracking-wide dark:text-white/70 dark:hover:bg-white/10 dark:focus:bg-white/10  transition-all duration-300 px-3 py-3 uppercase hover:bg-gray-100 rounded-md focus:ring-1 "
+      type="button"
+    >
+      Aug
+    </button>
+    <button
+      class="w-full tracking-wide dark:text-white/70 dark:hover:bg-white/10 dark:focus:bg-white/10  transition-all duration-300 px-3 py-3 uppercase hover:bg-gray-100 rounded-md focus:ring-1 "
+      type="button"
+    >
+      Sep
+    </button>
+    <button
+      class="w-full tracking-wide dark:text-white/70 dark:hover:bg-white/10 dark:focus:bg-white/10  transition-all duration-300 px-3 py-3 uppercase hover:bg-gray-100 rounded-md focus:ring-1 "
+      type="button"
+    >
+      Oct
+    </button>
+    <button
+      class="w-full tracking-wide dark:text-white/70 dark:hover:bg-white/10 dark:focus:bg-white/10  transition-all duration-300 px-3 py-3 uppercase hover:bg-gray-100 rounded-md focus:ring-1 "
+      type="button"
+    >
+      Nov
+    </button>
+    <button
+      class="w-full tracking-wide dark:text-white/70 dark:hover:bg-white/10 dark:focus:bg-white/10  transition-all duration-300 px-3 py-3 uppercase hover:bg-gray-100 rounded-md focus:ring-1 "
+      type="button"
+    >
+      Dec
+    </button>
+  </div>
+</div>
+`;
+
+exports[`[Calendar] components Years component should render years within the specified range 1`] = `
+<div>
+  <div
+    class="w-full grid grid-cols-2 gap-2 mt-2"
+  >
+    <button
+      class="w-full tracking-wide dark:text-white/70 dark:hover:bg-white/10 dark:focus:bg-white/10  transition-all duration-300 px-3 py-3 uppercase hover:bg-gray-100 rounded-md focus:ring-1 "
+      type="button"
+    >
+      2010
+    </button>
+    <button
+      class="w-full tracking-wide dark:text-white/70 dark:hover:bg-white/10 dark:focus:bg-white/10  transition-all duration-300 px-3 py-3 uppercase hover:bg-gray-100 rounded-md focus:ring-1 "
+      type="button"
+    >
+      2011
+    </button>
+    <button
+      class="w-full tracking-wide dark:text-white/70 dark:hover:bg-white/10 dark:focus:bg-white/10  transition-all duration-300 px-3 py-3 uppercase hover:bg-gray-100 rounded-md focus:ring-1 "
+      type="button"
+    >
+      2012
+    </button>
+    <button
+      class="w-full tracking-wide dark:text-white/70 dark:hover:bg-white/10 dark:focus:bg-white/10  transition-all duration-300 px-3 py-3 uppercase hover:bg-gray-100 rounded-md focus:ring-1 "
+      type="button"
+    >
+      2013
+    </button>
+    <button
+      class="w-full tracking-wide dark:text-white/70 dark:hover:bg-white/10 dark:focus:bg-white/10  transition-all duration-300 px-3 py-3 uppercase hover:bg-gray-100 rounded-md focus:ring-1 "
+      type="button"
+    >
+      2014
+    </button>
+    <button
+      class="w-full tracking-wide dark:text-white/70 dark:hover:bg-white/10 dark:focus:bg-white/10  transition-all duration-300 px-3 py-3 uppercase hover:bg-gray-100 rounded-md focus:ring-1 "
+      type="button"
+    >
+      2015
+    </button>
+    <button
+      class="w-full tracking-wide dark:text-white/70 dark:hover:bg-white/10 dark:focus:bg-white/10  transition-all duration-300 px-3 py-3 uppercase hover:bg-gray-100 rounded-md focus:ring-1 "
+      type="button"
+    >
+      2016
+    </button>
+    <button
+      class="w-full tracking-wide dark:text-white/70 dark:hover:bg-white/10 dark:focus:bg-white/10  transition-all duration-300 px-3 py-3 uppercase hover:bg-gray-100 rounded-md focus:ring-1 "
+      type="button"
+    >
+      2017
+    </button>
+    <button
+      class="w-full tracking-wide dark:text-white/70 dark:hover:bg-white/10 dark:focus:bg-white/10  transition-all duration-300 px-3 py-3 uppercase hover:bg-gray-100 rounded-md focus:ring-1 "
+      type="button"
+    >
+      2018
+    </button>
+    <button
+      class="w-full tracking-wide dark:text-white/70 dark:hover:bg-white/10 dark:focus:bg-white/10  transition-all duration-300 px-3 py-3 uppercase hover:bg-gray-100 rounded-md focus:ring-1 "
+      type="button"
+    >
+      2019
+    </button>
+    <button
+      class="w-full tracking-wide dark:text-white/70 dark:hover:bg-white/10 dark:focus:bg-white/10  transition-all duration-300 px-3 py-3 uppercase hover:bg-gray-100 rounded-md focus:ring-1 "
+      type="button"
+    >
+      2020
+    </button>
+    <button
+      class="w-full tracking-wide dark:text-white/70 dark:hover:bg-white/10 dark:focus:bg-white/10  transition-all duration-300 px-3 py-3 uppercase hover:bg-gray-100 rounded-md focus:ring-1 "
+      type="button"
+    >
+      2021
+    </button>
+  </div>
+</div>
+`;
