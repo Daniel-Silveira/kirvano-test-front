@@ -3,7 +3,7 @@
 exports[`[Datepicker] components Footer component should render Cancel and Apply buttons 1`] = `
 <div>
   <div
-    class="flex items-center justify-end pb-2.5 pt-3 border-t border-gray-300 dark:border-gray-700"
+    class="flex items-center justify-end pb-2.5 pt-3"
   >
     <div
       class="w-full md:w-auto flex items-center justify-center space-x-3"

@@ -8,7 +8,7 @@ import DatepickerContext from "../../../contexts/DatepickerContext";
 interface ItemTemplateProps {
   children: JSX.Element;
   key: number;
-  item: any;
+  item: { period: Period | any };
 }
 
 const ItemTemplate = memo((props: ItemTemplateProps) => {
@@ -33,10 +33,11 @@ const ItemTemplate = memo((props: ItemTemplateProps) => {
         });
       }
       changePeriod(item);
-      changeDatepickerValue({
-        startDate: item.start,
-        endDate: item.end,
-      });
+      changeDatepickerValue &&
+        changeDatepickerValue({
+          startDate: item.start,
+          endDate: item.end,
+        });
       updateFirstDate(dayjs(item.start));
     },
     [
@@ -74,7 +75,7 @@ const Shortcuts: React.FC = () => {
   return shortcutOptions?.length ? (
     <div className="mb-3 lg:mb-0  pr-1">
       <ul className="w-full tracking-wide flex flex-wrap lg:flex-col p-3">
-        {shortcutOptions.map(([_, item], index: number) =>
+        {shortcutOptions.map(([, item], index: number) =>
           Array.isArray(item) ? (
             item.map((item, index) => (
               <ItemTemplate key={index} item={item}>

@@ -106,10 +106,11 @@ export const useCalendar = ({
       let newEnd = null;
 
       function chosePeriod(start: string, end: string) {
-        changeDatepickerValue({
-          startDate: dayjs(start).format(DATE_FORMAT),
-          endDate: dayjs(end).format(DATE_FORMAT),
-        });
+        changeDatepickerValue &&
+          changeDatepickerValue({
+            startDate: dayjs(start).format(DATE_FORMAT),
+            endDate: dayjs(end).format(DATE_FORMAT),
+          });
         toggleVisibilityDatepicker();
       }
 

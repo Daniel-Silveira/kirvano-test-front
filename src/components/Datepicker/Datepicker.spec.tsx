@@ -16,6 +16,10 @@ describe("[Datepicker] components", () => {
             toggleVisibilityDatepicker,
             period: { start: startDate, end: endDate },
             changeDatepickerValue,
+            dayHover: null,
+            changePeriod: () => {},
+            changeDayHover: () => {},
+            updateFirstDate: () => {},
           }}
         >
           <Footer />
@@ -50,6 +54,10 @@ describe("[Datepicker] components", () => {
             toggleVisibilityDatepicker,
             period: { start: "", end: "" },
             changeDatepickerValue,
+            dayHover: null,
+            changePeriod: () => {},
+            changeDayHover: () => {},
+            updateFirstDate: () => {},
           }}
         >
           <Footer />

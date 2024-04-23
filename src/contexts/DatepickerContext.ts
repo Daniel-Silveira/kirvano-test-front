@@ -7,7 +7,7 @@ interface DatepickerStore {
   period: Period;
   showFooter?: boolean;
   placeholder?: string | null;
-  value: DateValueType;
+  value?: DateValueType;
   disabled?: boolean;
   minDate?: DateType | null;
   maxDate?: DateType | null;
@@ -16,7 +16,7 @@ interface DatepickerStore {
   changePeriod: (period: Period) => void;
   changeDayHover: (day: string | null) => void;
   updateFirstDate: (date: dayjs.Dayjs) => void;
-  changeDatepickerValue: (
+  changeDatepickerValue?: (
     value: DateValueType,
     e?: HTMLInputElement | null | undefined
   ) => void;
@@ -30,14 +30,11 @@ const DatepickerContext = createContext<DatepickerStore>({
   minDate: null,
   maxDate: null,
   dayHover: null,
-  changePeriod: (period) => {},
+  changePeriod: () => {},
   toggleVisibilityDatepicker: () => {},
-  changeDayHover: (day: string | null) => {},
-  updateFirstDate: (date) => {},
-  changeDatepickerValue: (
-    value: DateValueType,
-    e: HTMLInputElement | null | undefined
-  ) => {},
+  changeDayHover: () => {},
+  updateFirstDate: () => {},
+  changeDatepickerValue: () => {},
 });
 
 export default DatepickerContext;

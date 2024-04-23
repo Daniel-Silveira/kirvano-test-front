@@ -32,8 +32,8 @@ const Years: React.FC<Props> = ({
     },
   };
 
-  let startDate = setupDate[dateLooking].startDate;
-  let endDate = setupDate[dateLooking].endDate;
+  const startDate = setupDate[dateLooking].startDate;
+  const endDate = setupDate[dateLooking].endDate;
 
   return (
     <div className="w-full grid grid-cols-2 gap-2 mt-2">

@@ -1,29 +1,10 @@
 import dayjs from "dayjs";
-import React, {
-  useCallback,
-  useContext,
-  useEffect,
-  useMemo,
-  useState,
-} from "react";
-
-import { CALENDAR_SIZE, DATE_FORMAT, LANGUAGE } from "../../constants";
-import DatepickerContext from "../../contexts/DatepickerContext";
-import {
-  formatDate,
-  getDaysInMonth,
-  getFirstDayInMonth,
-  getFirstDaysInMonth,
-  getLastDaysInMonth,
-  getNumberOfDay,
-  nextMonth,
-  previousMonth,
-} from "../../helpers/calendar";
 
 import Days from "./components/DaysView";
 import Months from "./components/Months";
 import Week from "./components/Week";
 import Years from "./components/Years";
+import { LANGUAGE } from "../../constants";
 import { DateType } from "../../types";
 import {
   FiChevronLeft,

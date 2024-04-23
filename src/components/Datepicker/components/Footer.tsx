@@ -21,10 +21,11 @@ const Footer: React.FC = () => {
         <Button
           onClick={() => {
             if (period.start && period.end) {
-              changeDatepickerValue({
-                startDate: dayjs(period.start).format(DATE_FORMAT),
-                endDate: dayjs(period.end).format(DATE_FORMAT),
-              });
+              changeDatepickerValue &&
+                changeDatepickerValue({
+                  startDate: dayjs(period.start).format(DATE_FORMAT),
+                  endDate: dayjs(period.end).format(DATE_FORMAT),
+                });
               toggleVisibilityDatepicker();
             }
           }}
